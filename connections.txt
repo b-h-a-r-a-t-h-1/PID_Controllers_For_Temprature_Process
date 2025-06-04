@@ -1,0 +1,23 @@
+COMPONENTS REQUIRED
+
+Shakti processor development board (e.g., Vajra or Rise)
+USB to UART converter (if not onboard)
+LED (for output indication)
+Resistor (220Ω for LED current limiting)
+Potentiometer or sensor (to simulate process variable input)
+Push button or switch (for manual/auto mode control)
+Breadboard and jumper wires
+Power supply (if not powered via USB)
+
+
+
+CONNECTIONS
+
+Connect LED anode to GPIO output pin of Shakti board (e.g., GPIO_0)
+Connect LED cathode to one end of 220Ω resistor
+Connect other end of resistor to GND
+Connect potentiometer middle pin to ADC input pin (if available)
+Connect potentiometer outer pins to VCC and GND
+Connect switch between another GPIO pin (e.g., GPIO_1) and GND
+Connect UART TX/RX lines between Shakti board and PC or USB-UART converter
+Power the board via USB or external supply
