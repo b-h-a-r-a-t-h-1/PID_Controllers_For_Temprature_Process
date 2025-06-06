@@ -1,12 +1,5 @@
                                                                                     PID CONTROLLER DESIGN
 
-$IMPLEMENTATION::
-gcc pid_controller.c -o pid_controller
-./pid_controller
-
-
-
-
 $Explanation
 
 1.Controls a system using a PID algorithm.
